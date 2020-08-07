@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C3B02B324DDF2B300B8F08C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B02B224DDF2B300B8F08C /* Tests_iOS.swift */; };
+		9C3B02BE24DDF2B300B8F08C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B02BD24DDF2B300B8F08C /* Tests_macOS.swift */; };
+		9C3B02C024DDF2B300B8F08C /* wallabagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B029724DDF2B200B8F08C /* wallabagApp.swift */; };
+		9C3B02C124DDF2B300B8F08C /* wallabagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B029724DDF2B200B8F08C /* wallabagApp.swift */; };
+		9C3B02C224DDF2B300B8F08C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B029824DDF2B200B8F08C /* ContentView.swift */; };
+		9C3B02C324DDF2B300B8F08C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B029824DDF2B200B8F08C /* ContentView.swift */; };
+		9C3B02C424DDF2B300B8F08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3B029924DDF2B300B8F08C /* Assets.xcassets */; };
+		9C3B02C524DDF2B300B8F08C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C3B029924DDF2B300B8F08C /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C3B02AF24DDF2B300B8F08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3B029224DDF2B100B8F08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C3B029D24DDF2B300B8F08C;
+			remoteInfo = "wallabag (iOS)";
+		};
+		9C3B02BA24DDF2B300B8F08C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C3B029224DDF2B100B8F08C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C3B02A524DDF2B300B8F08C;
+			remoteInfo = "wallabag (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C3B029724DDF2B200B8F08C /* wallabagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wallabagApp.swift; sourceTree = "<group>"; };
+		9C3B029824DDF2B200B8F08C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C3B029924DDF2B300B8F08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C3B029E24DDF2B300B8F08C /* wallabag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wallabag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3B02A124DDF2B300B8F08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3B02A624DDF2B300B8F08C /* wallabag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wallabag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3B02A824DDF2B300B8F08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3B02A924DDF2B300B8F08C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9C3B02AE24DDF2B300B8F08C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3B02B224DDF2B300B8F08C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		9C3B02B424DDF2B300B8F08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C3B02B924DDF2B300B8F08C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C3B02BD24DDF2B300B8F08C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		9C3B02BF24DDF2B300B8F08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C3B029B24DDF2B300B8F08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3B02A324DDF2B300B8F08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3B02AB24DDF2B300B8F08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3B02B624DDF2B300B8F08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C3B029124DDF2B100B8F08C = {
+			isa = PBXGroup;
+			children = (
+				9C3B029624DDF2B200B8F08C /* Shared */,
+				9C3B02A024DDF2B300B8F08C /* iOS */,
+				9C3B02A724DDF2B300B8F08C /* macOS */,
+				9C3B02B124DDF2B300B8F08C /* Tests iOS */,
+				9C3B02BC24DDF2B300B8F08C /* Tests macOS */,
+				9C3B029F24DDF2B300B8F08C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C3B029624DDF2B200B8F08C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9C3B029724DDF2B200B8F08C /* wallabagApp.swift */,
+				9C3B029824DDF2B200B8F08C /* ContentView.swift */,
+				9C3B029924DDF2B300B8F08C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9C3B029F24DDF2B300B8F08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C3B029E24DDF2B300B8F08C /* wallabag.app */,
+				9C3B02A624DDF2B300B8F08C /* wallabag.app */,
+				9C3B02AE24DDF2B300B8F08C /* Tests iOS.xctest */,
+				9C3B02B924DDF2B300B8F08C /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C3B02A024DDF2B300B8F08C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9C3B02A124DDF2B300B8F08C /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		9C3B02A724DDF2B300B8F08C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				9C3B02A824DDF2B300B8F08C /* Info.plist */,
+				9C3B02A924DDF2B300B8F08C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		9C3B02B124DDF2B300B8F08C /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9C3B02B224DDF2B300B8F08C /* Tests_iOS.swift */,
+				9C3B02B424DDF2B300B8F08C /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		9C3B02BC24DDF2B300B8F08C /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				9C3B02BD24DDF2B300B8F08C /* Tests_macOS.swift */,
+				9C3B02BF24DDF2B300B8F08C /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C3B029D24DDF2B300B8F08C /* wallabag (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3B02C824DDF2B300B8F08C /* Build configuration list for PBXNativeTarget "wallabag (iOS)" */;
+			buildPhases = (
+				9C3B029A24DDF2B300B8F08C /* Sources */,
+				9C3B029B24DDF2B300B8F08C /* Frameworks */,
+				9C3B029C24DDF2B300B8F08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wallabag (iOS)";
+			productName = "wallabag (iOS)";
+			productReference = 9C3B029E24DDF2B300B8F08C /* wallabag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C3B02A524DDF2B300B8F08C /* wallabag (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3B02CB24DDF2B300B8F08C /* Build configuration list for PBXNativeTarget "wallabag (macOS)" */;
+			buildPhases = (
+				9C3B02A224DDF2B300B8F08C /* Sources */,
+				9C3B02A324DDF2B300B8F08C /* Frameworks */,
+				9C3B02A424DDF2B300B8F08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wallabag (macOS)";
+			productName = "wallabag (macOS)";
+			productReference = 9C3B02A624DDF2B300B8F08C /* wallabag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C3B02AD24DDF2B300B8F08C /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3B02CE24DDF2B300B8F08C /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				9C3B02AA24DDF2B300B8F08C /* Sources */,
+				9C3B02AB24DDF2B300B8F08C /* Frameworks */,
+				9C3B02AC24DDF2B300B8F08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C3B02B024DDF2B300B8F08C /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 9C3B02AE24DDF2B300B8F08C /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9C3B02B824DDF2B300B8F08C /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C3B02D124DDF2B300B8F08C /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				9C3B02B524DDF2B300B8F08C /* Sources */,
+				9C3B02B624DDF2B300B8F08C /* Frameworks */,
+				9C3B02B724DDF2B300B8F08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C3B02BB24DDF2B300B8F08C /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 9C3B02B924DDF2B300B8F08C /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C3B029224DDF2B100B8F08C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					9C3B029D24DDF2B300B8F08C = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					9C3B02A524DDF2B300B8F08C = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					9C3B02AD24DDF2B300B8F08C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9C3B029D24DDF2B300B8F08C;
+					};
+					9C3B02B824DDF2B300B8F08C = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 9C3B02A524DDF2B300B8F08C;
+					};
+				};
+			};
+			buildConfigurationList = 9C3B029524DDF2B100B8F08C /* Build configuration list for PBXProject "wallabag" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C3B029124DDF2B100B8F08C;
+			productRefGroup = 9C3B029F24DDF2B300B8F08C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C3B029D24DDF2B300B8F08C /* wallabag (iOS) */,
+				9C3B02A524DDF2B300B8F08C /* wallabag (macOS) */,
+				9C3B02AD24DDF2B300B8F08C /* Tests iOS */,
+				9C3B02B824DDF2B300B8F08C /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C3B029C24DDF2B300B8F08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3B02C424DDF2B300B8F08C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3B02A424DDF2B300B8F08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3B02C524DDF2B300B8F08C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3B02AC24DDF2B300B8F08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3B02B724DDF2B300B8F08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C3B029A24DDF2B300B8F08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3B02C224DDF2B300B8F08C /* ContentView.swift in Sources */,
+				9C3B02C024DDF2B300B8F08C /* wallabagApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3B02A224DDF2B300B8F08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3B02C324DDF2B300B8F08C /* ContentView.swift in Sources */,
+				9C3B02C124DDF2B300B8F08C /* wallabagApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3B02AA24DDF2B300B8F08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3B02B324DDF2B300B8F08C /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C3B02B524DDF2B300B8F08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C3B02BE24DDF2B300B8F08C /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C3B02B024DDF2B300B8F08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C3B029D24DDF2B300B8F08C /* wallabag (iOS) */;
+			targetProxy = 9C3B02AF24DDF2B300B8F08C /* PBXContainerItemProxy */;
+		};
+		9C3B02BB24DDF2B300B8F08C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C3B02A524DDF2B300B8F08C /* wallabag (macOS) */;
+			targetProxy = 9C3B02BA24DDF2B300B8F08C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C3B02C624DDF2B300B8F08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C3B02C724DDF2B300B8F08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9C3B02C924DDF2B300B8F08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97URPCGB8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.district-web.wallabag";
+				PRODUCT_NAME = wallabag;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C3B02CA24DDF2B300B8F08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97URPCGB8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.district-web.wallabag";
+				PRODUCT_NAME = wallabag;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C3B02CC24DDF2B300B8F08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G97URPCGB8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.district-web.wallabag";
+				PRODUCT_NAME = wallabag;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9C3B02CD24DDF2B300B8F08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G97URPCGB8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.district-web.wallabag";
+				PRODUCT_NAME = wallabag;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9C3B02CF24DDF2B300B8F08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97URPCGB8;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.district-web.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wallabag (iOS)";
+			};
+			name = Debug;
+		};
+		9C3B02D024DDF2B300B8F08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G97URPCGB8;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.district-web.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wallabag (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C3B02D224DDF2B300B8F08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G97URPCGB8;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.district-web.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "wallabag (macOS)";
+			};
+			name = Debug;
+		};
+		9C3B02D324DDF2B300B8F08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = G97URPCGB8;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.district-web.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "wallabag (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C3B029524DDF2B100B8F08C /* Build configuration list for PBXProject "wallabag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3B02C624DDF2B300B8F08C /* Debug */,
+				9C3B02C724DDF2B300B8F08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3B02C824DDF2B300B8F08C /* Build configuration list for PBXNativeTarget "wallabag (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3B02C924DDF2B300B8F08C /* Debug */,
+				9C3B02CA24DDF2B300B8F08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3B02CB24DDF2B300B8F08C /* Build configuration list for PBXNativeTarget "wallabag (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3B02CC24DDF2B300B8F08C /* Debug */,
+				9C3B02CD24DDF2B300B8F08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3B02CE24DDF2B300B8F08C /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3B02CF24DDF2B300B8F08C /* Debug */,
+				9C3B02D024DDF2B300B8F08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C3B02D124DDF2B300B8F08C /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C3B02D224DDF2B300B8F08C /* Debug */,
+				9C3B02D324DDF2B300B8F08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C3B029224DDF2B100B8F08C /* Project object */;
+}
